@@ -19,6 +19,7 @@ Space Complexity: O(n*n). To store the output array a matrix is needed.
 A program that visualises a binary tree in Command Line Interface
 
 # Goal Representation
+
               5                                 1 spaces (assume)
 
 
@@ -38,15 +39,13 @@ A program that visualises a binary tree in Command Line Interface
 
 
 
-    (a)        9        (a)                      14 - 10         6 - 4        2 - 1      (2^i - 2) - 2^(i-2)
-           /       \                                             11           5          (2^(i+1) - 1) - 2^(i-1)
-       5               7                         15 spaces
-     /(c)\    (d)    /   \
-   4       7       8       9                     7 spaces
-  / \     / \     / \     / \
- 5   4   6   8   4   8   4   1                   3 spaces
-
-
+    (a)         9        (a)                      14 - 10         6 - 4        2 - 1      (2^i - 2) - 2^(i-2)
+            /       \                                             11           5          (2^(i+1) - 1) - 2^(i-1)
+        5               7                         15 spaces
+      /(c)\    (d)    /   \
+     4     7         8     9                     7 spaces
+    / \     / \     / \     / \
+    5  4   6   8   4   8   4   1                   3 spaces
 
 
 
